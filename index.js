@@ -1,2 +1,5 @@
-import fs from 'fs';
-console.log("ddbadd");
+import Rx from 'rxjs';
+
+const rangeObservable = Rx.Observable.range(1,9);
+
+rangeObservable.subscribe(e => console.log(`hfehfehieia ${e}`))
